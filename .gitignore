@@ -1,0 +1,33 @@
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and OS files
+.DS_Store
+.spyproject/
+.vscode/
+.idea/
+
+# Excluded project material
+Quant_Interviews/
+data/
+
+# Generated reports and logs
+src/trade_log_*.csv
+
+# Local secrets and credentials
+*secret*
+*credential*
+*token*
